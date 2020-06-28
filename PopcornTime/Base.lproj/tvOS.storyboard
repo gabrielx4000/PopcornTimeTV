@@ -2183,7 +2183,7 @@
                                 <rect key="frame" x="100" y="205" width="956" height="815"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" id="wy0-bN-qn6" customClass="DownloadDetailTableViewCell" customModule="PopcornTime" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="wy0-bN-qn6" customClass="DownloadDetailTableViewCell" customModule="PopcornTime" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="80" width="956" height="95"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wy0-bN-qn6" id="Akk-pg-Mcl">
@@ -2220,7 +2220,6 @@
                                                 <constraint firstItem="W9y-7y-KCu" firstAttribute="top" secondItem="4UC-nO-gJI" secondAttribute="top" id="pvI-dA-Gxy"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <outlet property="_detailTextLabel" destination="rU1-yx-R2y" id="5H7-uC-o0R"/>
                                             <outlet property="_textLabel" destination="4UC-nO-gJI" id="Z5P-Cy-beT"/>
